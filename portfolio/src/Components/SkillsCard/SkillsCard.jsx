@@ -10,7 +10,6 @@ const SkillsCard = ({ FrameImg, heading }) => {
       className="skillsCard">
       <img src={FrameImg} alt="FrameImg" />
       <span  style={{
-        // background:darkMode? 'black':'',
         color: darkMode ? "white" : "var(--black)",
       }}>{heading}</span>
     </div>
