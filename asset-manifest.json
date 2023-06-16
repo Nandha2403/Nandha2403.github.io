@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9dbef904.css",
+    "main.js": "/static/js/main.e16417cc.js",
+    "static/media/NandhaResume.pdf": "/static/media/NandhaResume.17e395498de6a1c59ac4.pdf",
+    "static/media/humble.png": "/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/glasses.png": "/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/index.html",
+    "main.9dbef904.css.map": "/static/css/main.9dbef904.css.map",
+    "main.e16417cc.js.map": "/static/js/main.e16417cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9dbef904.css",
+    "static/js/main.e16417cc.js"
+  ]
+}
