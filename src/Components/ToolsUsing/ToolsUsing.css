@@ -1,0 +1,50 @@
+.Tools {
+  height: 75vh;
+  margin-top: 2rem;
+  /* border: 1px solid greenyellow; */
+  padding: 0.5rem 3.5rem; 
+}
+.t-title {
+  margin-top: 1rem;
+  text-align: center;
+}
+.t-title > span {
+  font-size: 1.5rem;
+}
+.t-title > span:nth-child(2) {
+  color: var(--rogerBlue);
+}
+.ToolsCard1 {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+.ToolsCard2 {
+  width: 85%;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(5, 1fr);
+}
+.ToolsCard2Cont {
+  width: 80%;
+  height: 30vh;
+  margin: auto;
+  margin-top: 9rem;
+}
+
+/*
+.s-cards2{
+  width: 100%;
+  margin-left: 4rem;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  
+}
+.s-cards2-cont{
+  width: 70%;
+  height: 30vh;
+  margin: auto;
+  margin-top: 10rem;
+}
+
+ */

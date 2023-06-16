@@ -1,0 +1,63 @@
+.intro{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+    padding: 0.5rem 3.5rem; 
+}
+.i-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.i-name{
+    display: flex;
+    flex-direction: column;
+}
+.i-name>:nth-child(1){
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+.i-name>:nth-child(2){
+    color: var(--rogerBlue);
+    font-weight: bold;
+    font-size: 3rem;
+}
+.i-name>:nth-child(3){
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--gray);
+    margin-top: 10px;
+}
+.i-left-buttons-cont{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.i-button{
+    width: 6rem;
+    height: 2rem;
+}
+.i-icons{
+    margin-top:1rem;
+    display: flex;
+}
+.i-icons>*{
+    transform: scale(0.5);
+}
+.i-icons>*:hover{
+    cursor: pointer;
+}
+
+.i-right{
+    flex: 1;
+}
+.i-right>img{
+    width: 80%;
+    margin-left: 4rem;
+}
