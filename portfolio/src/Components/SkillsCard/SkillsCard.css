@@ -1,0 +1,32 @@
+.skillsCard{
+    width: 5rem;
+    height: 6rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255,255,255,0.26);
+    border: 3px solid var(--rogerBlue);
+    box-shadow: var(--rogerBlue);
+    border-radius: 20px;
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+
+}
+.skillsCard>span:nth-of-type(1){
+    color: var(--black);
+    font-size: 14px;
+    margin-top: -10px;
+} 
+.skillsCard>img{
+    transform: scale(0.7);
+    transition: ease-in-out;
+
+} 
+.skillsCard:hover{
+    cursor: pointer;
+    transition: ease-in-out;
+    overflow: hidden;
+    transform: scale(1.1);
+}
