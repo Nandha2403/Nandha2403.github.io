@@ -18,3 +18,8 @@
   background: var(--rogerBlue);
   position: absolute;
 }
+@media screen and (max-width:480px) {
+  .toggle{
+    padding: 1px;
+  }
+}

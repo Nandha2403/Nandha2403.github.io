@@ -65,7 +65,7 @@ const Services = () => {
           <Card
             emoji={Humble}
             heading={"Tools | USE"}
-            detail={"VS Code, Git, Postman, Github, NPM, Yarn"}
+            detail={"VS Code, Git, Postman, Github, NPM, yarn, CodeSandBox, Codepen"}
             id={"Tools"}
           />
         </motion.div>

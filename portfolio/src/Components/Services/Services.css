@@ -53,3 +53,21 @@
     left: -18rem;
     top: 8rem;
 }
+
+@media screen and (max-width: 480px){
+  .Services{
+    flex-direction: column;
+    gap: 5rem;
+    height: 66rem;
+    padding: 0.5rem 1rem;
+  }
+  .cards{
+    display: flex;
+    flex-direction: column;
+    gap: 17rem;
+    margin-left: -50px;
+  }
+  .cards>*{
+    position: static;
+  }
+}

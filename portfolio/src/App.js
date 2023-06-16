@@ -8,6 +8,7 @@ import ToolsUsing from "./Components/ToolsUsing/ToolsUsing";
 import Projects from "./Components/Projects/Projects";
 import {useContext} from "react"
 import { themeContext } from "./Context";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   const theme = useContext(themeContext)
@@ -25,6 +26,7 @@ function App() {
       <Skills />
       <ToolsUsing />
       <Projects />
+      <Contact />
     </div>
   );
 }

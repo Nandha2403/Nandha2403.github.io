@@ -43,6 +43,36 @@
     margin-bottom: 5rem;
     
 }
+.span_about{
+  font-size: 2rem;
+  margin-left: 13rem
+}
 /* .a-runningTxt{
     flex-direction: column;
 } */
+
+.RunningText{
+  text-align: center;
+}
+
+@media screen and (max-width: 480px){
+  .about{
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+  }
+  .span_about{
+    margin-left: 1rem;
+    font-size: 2rem;
+  }
+  .a-right>img{
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+  }
+  /* .a-title{
+    font-size: medium;
+  } */
+  .RunningText>a{
+    width: 40%;
+    text-align: center;
+  }
+}

@@ -1,4 +1,5 @@
-import React,{useContext} from "react";
+import React, { useContext } from "react";
+import { Link } from "react-scroll";
 import Github from "../../img/githubBlue.png";
 import Linkedin from "../../img/LinkedinBlue.png";
 import Email from "../../img/EmailBlue.png";
@@ -6,13 +7,13 @@ import "./Intro.css";
 import { themeContext } from "../../Context";
 
 const Intro = () => {
-  const theme=useContext(themeContext)
-  const darkMode=theme.state.darkMode
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className="intro">
       <div className="i-left">
         <div className="i-name">
-          <span style={{color:darkMode?"white":''}}>Hey! I Am</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
           <span>Nandha Raghu</span>
           <span>
             Full Stack Web Developer with proficient Skilled in both Frontend
@@ -20,18 +21,31 @@ const Intro = () => {
           </span>
         </div>
         <div className="i-left-buttons-cont">
-          <button className="button i-button">Resume</button>
-          <button className="button i-button">Hire me</button>
+          <a
+            href="https://drive.google.com/drive/u/0/folders/1kMqkAC-1C-KkwUgO1sVoVlSV-tu8YCmT"
+            target="blank"
+          >
+            <button className="button i-button">Resume</button>
+          </a>
+          <Link spy={true} to="Contact" smooth={true} activeClass="activeClass">
+            <button className="button i-button">Hire me</button>
+          </Link>
         </div>
         <div className="i-icons">
           <a href="https://github.com/Nandha2403" target="_blank">
-          <img src={Github} alt="Github" />
+            <img src={Github} alt="Github" />
           </a>
-          <a href="https://www.linkedin.com/in/nandha-raghu-743389224/" target="_blank">
-          <img src={Linkedin} alt="Linkedin" />
+          <a
+            href="https://www.linkedin.com/in/nandha-raghu-743389224/"
+            target="_blank"
+          >
+            <img src={Linkedin} alt="Linkedin" />
           </a>
-          <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=nandhuvj451@gmail.com" target="_blank">
-          <img src={Email} alt="Email" />
+          <a
+            href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=nandhuvj451@gmail.com"
+            target="_blank"
+          >
+            <img src={Email} alt="Email" />
           </a>
         </div>
       </div>

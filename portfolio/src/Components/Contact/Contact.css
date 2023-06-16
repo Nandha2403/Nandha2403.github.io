@@ -1,0 +1,22 @@
+.contact{
+    margin-top: 5rem;
+}
+.title{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.contact_cont{
+    display: flex;
+}
+.tnk{
+    margin-top: 2rem;
+    text-align: center;
+}
+.tnk>h3{
+    font-size: 1.8rem;
+
+}
+.ending>p{
+    text-align: center;
+    font-size: 10px;
+}

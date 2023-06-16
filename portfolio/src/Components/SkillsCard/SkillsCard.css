@@ -1,10 +1,10 @@
 .skillsCard{
     width: 5rem;
     height: 6rem;
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    /* gap: 0.5rem; */
     align-items: center;
     text-align: center;
     background-color: rgba(255,255,255,0.26);
@@ -17,7 +17,7 @@
 .skillsCard>span:nth-of-type(1){
     color: var(--black);
     font-size: 14px;
-    margin-top: -10px;
+    /* margin-top: -10px; */
 } 
 .skillsCard>img{
     transform: scale(0.7);
@@ -29,4 +29,10 @@
     transition: ease-in-out;
     overflow: hidden;
     transform: scale(1.1);
+}
+
+@media screen and (max-width:480px) {
+    .skillsCard{
+        width: 5rem;
+    }
 }

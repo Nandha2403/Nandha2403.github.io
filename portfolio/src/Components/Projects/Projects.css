@@ -1,7 +1,7 @@
 .Projects{
     margin-top: 5rem;
-    border: 1px solid orange; 
     padding: 0.5rem 3.5rem;  
+    width: 90%;
 }
 .p-title{
     text-align: center;
@@ -10,7 +10,7 @@
     font-size: 2rem;
 }
 .p-left{
-    width: 44%;
+    width: 50%;
 }
 .p-cards{
     display: flex;
@@ -19,21 +19,17 @@
     border: 4px solid var(--rogerBlue);
     border-radius: 20px;
 }
-.l-video>video{
-    /* margin-top: 3rem; */
-    margin-left: 1rem;
-    height: 300px;
-}
 .p-buttons{
     width: 60%;
     display: flex;
     /* border: 1px solid green; */
     margin: auto;
-    margin-top: 5px;
+    margin-top: 20px;
     justify-content: space-between;
 }
 .p-right{
-    border: 1px solid green;
+    width: 50%;
+    margin-top: 40px;
 }
 .icon-imgs{
     width: 10%;
@@ -43,4 +39,81 @@
 }
 .icon-imgs>img{
     border: 1px solid green;
+}
+.project_img{
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    transition: transform .2s;
+}
+.project_img:hover{
+     transform: scale(1.1);
+}
+.p-TechStack{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.p-TechStack>p{
+    font-size: medium;
+}
+.project-title{
+    margin-left: 20px;
+    text-decoration: underline;
+}
+.project-title{
+    margin-top: 30px;
+}
+.project-intro{
+    /* margin-top: 1rem; */
+    margin-left: 10px;
+    text-align: justify;
+}
+.project-features-heading{
+    text-decoration: underline;
+    margin-left: 10px;
+}
+.project-group{
+    margin-left: 10px;
+}
+.project-Res{
+    margin-left: 10px;
+    text-decoration: underline;
+
+
+}
+
+@media screen and (max-width:480px) {
+    .Projects{
+        padding: 0.5rem 1rem;
+        margin-top: 30rem;
+    }
+    .project_img{
+        width: 100%;
+        margin-left: 60px;
+    }
+
+    .p-cards{
+        width: 100%;
+        flex-direction: column;
+        height: 120vh;
+    }
+    .p-TechStack{
+        width: 100%;
+        margin-left: 2px ;
+
+    }
+    .p-TechStack>p{
+        width: 100%;
+    }
+    .p-buttons{
+        width: 60%;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.p-right{
+    width: 100%;
+}
 }

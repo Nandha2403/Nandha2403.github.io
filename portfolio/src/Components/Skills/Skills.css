@@ -41,5 +41,29 @@
   height: 30vh;
   margin: auto;
   /* border: 1px solid green; */
-  margin-top: 9rem;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width:480px) {
+  .Skills{
+    margin-top: 15rem;
+    padding: 0.5rem 1rem;
+  }
+  .s-cards1{
+    /* display: grid; */
+    gap: 4px;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 45px;
+  }
+  .s-cards2{
+    gap: 10px;
+    width: 120%;
+    grid-template-columns: repeat(2,1fr);
+    height: 40vh;
+    margin-left: 135px;
+  }
+  .s-cards2-cont{
+    margin-top: 10px;
+    margin-left: -90px;
+  }
 }

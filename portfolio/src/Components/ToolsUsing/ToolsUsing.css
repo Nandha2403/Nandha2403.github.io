@@ -48,3 +48,29 @@
 }
 
  */
+
+ @media screen and (max-width:480px) {
+  .Tools{
+    margin-top: 110%;
+    padding: 0.5rem 1rem;
+  }
+  .ToolsCard1{
+    gap: 1px;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 45px;
+    height: 75vh;
+    width: 95%;
+  }
+  .ToolsCard2Cont{
+    margin-top: 10px;
+
+  }
+  .ToolsCard2{
+    gap: 65px;
+    width: 98%;
+    grid-template-columns: repeat(2,1fr);
+    height: 55vh;
+    margin-left: 10px;
+
+  }
+ }
