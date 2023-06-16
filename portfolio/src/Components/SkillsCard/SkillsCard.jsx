@@ -8,6 +8,7 @@ const SkillsCard = ({ FrameImg, heading }) => {
   return (
     <div
       className="skillsCard">
+        
       <img src={FrameImg} alt="FrameImg" />
       <span  style={{
         color: darkMode ? "white" : "var(--black)",
